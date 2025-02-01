@@ -170,6 +170,10 @@
         padding-top: 3.5rem;
     }
 
+    .hom__subtitle::before {
+        width: 30px;
+    }
+
     .home__img {
         order: initial;
         justify-self: center;
@@ -195,6 +199,10 @@
     .home__img {
         width: 180px;
         height: 180px;
+    }
+
+    .hom__subtitle::before {
+        width: 25px;
     }
 
     .home__hand {
