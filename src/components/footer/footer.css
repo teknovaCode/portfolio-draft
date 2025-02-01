@@ -31,7 +31,17 @@
 .footer__social {
     display: flex;
     justify-content: center;
+    align-items: center;
     column-gap: 1.25rem;
+}
+
+.footer__social a:first-child {
+    position: relative;
+    top: -.1rem;
+}
+
+.footer__social a {
+    height: 1.5rem;
 }
 
 .footer__social-link {

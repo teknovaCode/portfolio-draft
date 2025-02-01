@@ -21,17 +21,18 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                <a href="https://www.instagram.com/" className="home__social-icon" target="_blank">
-                    <i class='bx bxl-instagram-alt'></i>
-                </a>
+                    <a href="https://www.linkedin.com/in/gonzalo-emiliano-villalba/" className="home__social-icon" target="_blank">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    
 
-                <a href="https://x.com/" className="home__social-icon" target="_blank">
-                    <i class='bx bxl-twitter' ></i>
-                </a>
+                    <a href="https://x.com/Gonza_villalba8" className="home__social-icon" target="_blank">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
 
-                <a href="https://github.com/" className="home__social-icon" target="_blank">
-                    <i class='bx bxl-github' ></i>
-                </a>
+                    <a href="https://github.com/gonzavillalba02" className="home__social-icon" target="_blank">
+                        <i class='bx bxl-github' ></i>
+                    </a>
                 </div>
 
                 <span className="footer__copy">
