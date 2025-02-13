@@ -11,8 +11,8 @@ const Qualifiaction = () => {
 
     return(
         <section className="qualification section">
-            <h2 className="section__title">Qualification</h2>
-            <span className="section__subtitle">My personal journey</span>
+            <h2 className="section__title">Formación</h2>
+            <span className="section__subtitle">Mi trayectoria personal</span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
@@ -22,7 +22,7 @@ const Qualifiaction = () => {
                             : "qualification__button button--flex"}
                         onClick={() => toggleTab(1)}
                     >
-                        <i className="uil uil-graduation-cap qualification__icon"></i> Education
+                        <i className="uil uil-graduation-cap qualification__icon"></i> Educación
                     </div>
 
                     <div 
@@ -31,7 +31,7 @@ const Qualifiaction = () => {
                             : "qualification__button button--flex"}
                         onClick={() => toggleTab(2)}
                     >
-                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experiencia
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@ const Qualifiaction = () => {
                     >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">High School</h3>
+                                <h3 className="qualification__title">Escuela Secundaria</h3>
                                 <span className="qualification__subtitle">BHM - Salta, Argentina</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 2016 – 2020
@@ -63,7 +63,7 @@ const Qualifiaction = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Accounting Studies</h3>
+                                <h3 className="qualification__title">Estudios para Contador Público Nacional</h3>
                                 <span className="qualification__subtitle">UNSA - Salta, Argentina</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2021 - 2022
@@ -73,7 +73,7 @@ const Qualifiaction = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Computer Engineering</h3>
+                                <h3 className="qualification__title">Ingeniería Informática</h3>
                                 <span className="qualification__subtitle">UCASAL - Salta, Argentina</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2023 – Present
@@ -94,7 +94,7 @@ const Qualifiaction = () => {
                     >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Administrative Assistant</h3>
+                                <h3 className="qualification__title">Asistente Administrativo</h3>
                                 <span className="qualification__subtitle">Estudio Jurídico Armando Isasmendi - Salta, Argentina</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2021 – 2022
@@ -114,7 +114,7 @@ const Qualifiaction = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Property Management</h3>
+                                <h3 className="qualification__title">Gestión de Propiedades</h3>
                                 <span className="qualification__subtitle">Salta, Argentina</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2022 – 2024
@@ -124,7 +124,7 @@ const Qualifiaction = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Programming Instructor</h3>
+                                <h3 className="qualification__title">Instructor de Programación</h3>
                                 <span className="qualification__subtitle">355Code - Online</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2024 - Present

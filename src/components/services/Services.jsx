@@ -11,20 +11,20 @@ const Services = () => {
 
     return(
         <section className="services section" id="services">
-            <h2 className="section__title">Services</h2>
-            <span className="section__subtitle">What i offer</span>
+            <h2 className="section__title">Servicios</h2>
+            <span className="section__subtitle">Lo que ofrezco</span>
 
             <div className="services__container container grid">
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
                         <h3 className="services__title">
-                            Full-Stack <br/> Web Development
+                            Desarrollo Web <br/> Full-Stack
                         </h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(1)}>
-                        View More
+                        Ver más
                         <i class='bx bx-right-arrow-alt services__button-icon'></i>
                     </span>
 
@@ -32,33 +32,33 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                            <h3 className="services__modal-title">Full-Stack Web Development</h3>
-                            <p className="services__modal-description">I develop custom web applications from backend to frontend, building complete systems with modern technologies tailored to your needs.</p>
+                            <h3 className="services__modal-title">Desarrollo Web Full-Stack</h3>
+                            <p className="services__modal-description">Desarrollo aplicaciones web personalizadas desde el backend hasta el frontend, creando sistemas completos con tecnologías modernas adaptadas a tus necesidades.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Custom development of full-stack web systems.</p>
+                                    <p className="services__modal-info">Desarrollo personalizado de sistemas web full-stack.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Building applications with modern technologies like Node.js, React, and relational databases.</p>
+                                    <p className="services__modal-info">Creación de aplicaciones con tecnologías modernas como Node.js, React y bases de datos relacionales.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Integration of admin modules to manage the platform easily.</p>
+                                    <p className="services__modal-info">Integración de módulos administrativos para gestionar la plataforma fácilmente.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Implementation of custom features.</p>
+                                    <p className="services__modal-info">Implementación de características personalizadas.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Performance optimization, ensuring the website is fast and scalable.</p>
+                                    <p className="services__modal-info">Optimización del rendimiento, asegurando que el sitio web sea rápido y escalable.</p>
                                 </li>
                             </ul>
                         </div>
@@ -69,38 +69,38 @@ const Services = () => {
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
                         <h3 className="services__title">
-                        Front-End <br /> Redesign
+                        Rediseño <br /> Front-End
                         </h3>
                     </div>
 
-                    <span className="services__button" onClick={() => toggleTab(2)}>View More <i class='bx bx-right-arrow-alt services__button-icon'></i></span>
+                    <span className="services__button" onClick={() => toggleTab(2)}>Ver más <i class='bx bx-right-arrow-alt services__button-icon'></i></span>
 
                     <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                            <h3 className="services__modal-title">Front-End Redesign</h3>
-                            <p className="services__modal-description">I code the front-end of your website to make it responsive, dynamic, and user-friendly, ensuring an intuitive user experience.</p>
+                            <h3 className="services__modal-title">Rediseño Front-End</h3>
+                            <p className="services__modal-description">Programo el front-end de tu sitio web para hacerlo responsivo, dinámico y fácil de usar, asegurando una experiencia de usuario intuitiva.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Responsive and mobile-friendly layouts.</p>
+                                    <p className="services__modal-info">Diseño de interfaces responsivas y adaptadas a dispositivos móviles.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Dynamic interactions using modern JS frameworks like React.</p>
+                                    <p className="services__modal-info">Interacciones dinámicas utilizando frameworks modernos de JavaScript como React.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Optimized performance for faster load times.</p>
+                                    <p className="services__modal-info">Optimización del rendimiento para tiempos de carga más rápidos.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Clean, maintainable code for future updates.</p>
+                                    <p className="services__modal-info">Código limpio y mantenible para futuras actualizaciones.</p>
                                 </li>
                             </ul>
                         </div>
@@ -110,37 +110,37 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i class='bx bx-coin-stack services__icon'></i>
-                        <h3 className="services__title">Back-End <br /> Development</h3>
+                        <h3 className="services__title">Desarrollo <br /> Back-End</h3>
                     </div>
 
-                    <span className="services__button" onClick={() => toggleTab(3)}>View More <i class='bx bx-right-arrow-alt services__button-icon'></i></span>
+                    <span className="services__button" onClick={() => toggleTab(3)}>Ver más <i class='bx bx-right-arrow-alt services__button-icon'></i></span>
 
                     <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                            <h3 className="services__modal-title">Back-End Development</h3>
-                            <p className="services__modal-description">I build the backend of your website, ensuring functionality, data storage, and smooth communication between the frontend and the server.</p>
+                            <h3 className="services__modal-title">Desarrollo Back-End</h3>
+                            <p className="services__modal-description">Construyo el backend de tu sitio web, asegurando la funcionalidad, almacenamiento de datos y una comunicación fluida entre el frontend y el servidor</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Building APIs and server-side logic.</p>
+                                    <p className="services__modal-info">Creación de APIs y lógica del lado del servidor.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Database design and integration.</p>
+                                    <p className="services__modal-info">Diseño e integración de bases de datos.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">User authentication and authorization.</p>
+                                    <p className="services__modal-info">Autenticación y autorización de usuarios.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Ensuring data security and reliable functionality.</p>
+                                    <p className="services__modal-info">Aseguramiento de la seguridad de los datos y funcionalidad confiable.</p>
                                 </li>
                             </ul>
                         </div>

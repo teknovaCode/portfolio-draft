@@ -1,23 +1,23 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/CV - Gonzalo Villalba (E).pdf"
+import CV from "../../assets/CV - Gonzalo Villalba (S).pdf"
 import Info from './Info';
 
 const About = () => {
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My introduction</span>
+            <h2 className="section__title">Sobre mí</h2>
+            <span className="section__subtitle">Mi presentación</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
 
                 <div className="about__data">
                     <Info />
-                    <p className="about__description">Web Developer specialized in creating functional and visually appealing web applications. With experience in frontend and backend development, I focus on delivering seamless user experiences and efficient solutions for every project.</p>
+                    <p className="about__description">Desarrollador web especializado en la creación de aplicaciones web funcionales y visualmente atractivas. Con experiencia en desarrollo tanto de frontend como de backend, me enfoco en ofrecer experiencias de usuario fluidas y soluciones eficientes para cada proyecto.</p>
 
-                    <a download="" href={CV} className="button button--flex">Download CV
+                    <a download="" href={CV} className="button button--flex">Descargar CV
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"

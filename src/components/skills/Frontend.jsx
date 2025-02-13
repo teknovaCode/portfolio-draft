@@ -4,7 +4,7 @@ import "./skills.css";
 const Frontend = () => {
     return(
         <div className="skills__content">
-            <h3 className="skills__title">Frontend developer</h3>
+            <h3 className="skills__title">Desarrollador Frontend</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -13,7 +13,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">Advanced</span>
+                            <span className="skills__level">Avanzado</span>
                         </div>
                     </div>
 
@@ -22,7 +22,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">CSS</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <span className="skills__level">Intermedio</span>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">JavaScript</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <span className="skills__level">Intermedio</span>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">React</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <span className="skills__level">Intermedio</span>
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">Git</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <span className="skills__level">Intermedio</span>
                         </div>
                     </div>
 
