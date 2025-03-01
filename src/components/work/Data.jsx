@@ -7,6 +7,7 @@ import Work6 from "../../assets/work6.jpg";
 import Work7 from "../../assets/work7.jpg";
 import Work8 from "../../assets/work8.jpg";
 import Work9 from "../../assets/work9.jpg";
+import Work10 from "../../assets/work10.jpg";
 
 export const projectsData = [
     {
@@ -17,6 +18,15 @@ export const projectsData = [
         link: "https://tressquash.com/",
         description: "Sistema de reservas club de squash",
         tags: ["bxl-css3", "bxl-javascript", "bxl-react", "bxl-typescript", "bxl-nodejs", "mysql"],
+    },
+    {
+        id: 10,
+        image: Work10,
+        title: "Landing Page",
+        category: "web",
+        link: "https://glk.com.ar/",
+        description: "Página web corporativa para minera en Salta",
+        tags: ["bxl-css3", "bxl-javascript", "bxl-react", "bxl-typescript", "bxl-nodejs"],
     },
     {
         id: 8,
