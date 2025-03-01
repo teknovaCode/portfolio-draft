@@ -58,6 +58,7 @@
 
 .work__subtitle {
     margin-bottom: 0.5rem;
+    max-width: 295px;
 }
 
 .work__stack {

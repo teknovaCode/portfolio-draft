@@ -43,7 +43,7 @@ export const projectsData = [
         title: "Micro Full-Stack App",
         category: "web",
         link: "https://github.com/gonzavillalba02/Frases-Screenmatch",
-        description: "Simple web de frases",
+        description: "Pequeña web que despliega frases aleatorias",
         tags: ["bxl-javascript", "bxl-html5", "bxl-css3", "bxl-java", "bxl-spring-boot", "bxl-postgresql"],
     },
     {
@@ -79,7 +79,7 @@ export const projectsData = [
         title: "Calculadora de raíces",
         category: "web",
         link: "https://1-parcial-analisis-numerico.vercel.app/",
-        description: "Encontrar raíces de una función.",
+        description: "Encontrar raíces de una función utilizando 4 metodos diferentes",
         tags: ["bxl-html5", "bxl-css3", "bxl-javascript", "bxl-react"],
     },
     {
