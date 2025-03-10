@@ -12,7 +12,7 @@ const Services = () => {
     return(
         <section className="services section" id="services">
             <h2 className="section__title">Servicios</h2>
-            <span className="section__subtitle">Lo que ofrezco</span>
+            <span className="section__subtitle">Lo que ofrecemos</span>
 
             <div className="services__container container grid">
                 <div className="services__content">
@@ -33,7 +33,7 @@ const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">Desarrollo Web Full-Stack</h3>
-                            <p className="services__modal-description">Desarrollo aplicaciones web personalizadas desde el backend hasta el frontend, creando sistemas completos con tecnologías modernas adaptadas a tus necesidades.</p>
+                            <p className="services__modal-description">Desarrollamos aplicaciones web personalizadas desde el backend hasta el frontend, creando sistemas completos con tecnologías modernas adaptadas a tus necesidades.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -80,7 +80,7 @@ const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">Rediseño Front-End</h3>
-                            <p className="services__modal-description">Programo el front-end de tu sitio web para hacerlo responsivo, dinámico y fácil de usar, asegurando una experiencia de usuario intuitiva.</p>
+                            <p className="services__modal-description">Programamos el front-end de tu sitio web para hacerlo responsivo, dinámico y fácil de usar, asegurando una experiencia de usuario intuitiva.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -120,7 +120,7 @@ const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">Desarrollo Back-End</h3>
-                            <p className="services__modal-description">Construyo el backend de tu sitio web, asegurando la funcionalidad, almacenamiento de datos y una comunicación fluida entre el frontend y el servidor</p>
+                            <p className="services__modal-description">Construimos el backend de tu sitio web, asegurando la funcionalidad, almacenamiento de datos y una comunicación fluida entre el frontend y el servidor</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">

@@ -18,45 +18,47 @@ const Contact = () => {
 
     return(
         <section className="contact section" id="contact">
-            <h2 className="section__title">Ponte en contacto</h2>
-            <span className="section__subtitle">Contáctame</span>
+            <h2 className="section__title">Contacto</h2>
+            <span className="section__subtitle">No dudes en consultar</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Háblame</h3>
+                    <h3 className="contact__title">Háblanos</h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">gonzavillalba123@gmail.com</span>
+                            <span className="contact__card-data">teknovacode@gmail.com</span>
 
-                            <a href="https://forms.gle/2VCrGyAy7VdYMcvs7" target="_blank" className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://forms.gle/2VCrGyAy7VdYMcvs7" target="_blank" className="contact__button">Contáctanos <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">+54 9 387-483-5750</span>
+                            <h3 className="contact__card-title">Gonzalo Villalba</h3>
+                            <span className="contact__card-data">
+                                +54 9 387 483 5750
+                            </span>
 
-                            <a href="https://wa.me/5493874835750?text=Hola,%20quiero%20hablar%20sobre%20un%20proyecto!" target="_blank" rel="noopener noreferrer" className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://wa.me/5493874835750?text=Hola,%20quiero%20hablar%20sobre%20un%20proyecto!" target="_blank" rel="noopener noreferrer" className="contact__button">Contáctanos <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-instagram contact__card-icon"></i>
+                            <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Instagram</h3>
-                            <span className="contact__card-data">@gonza_villalba02</span>
+                            <h3 className="contact__card-title">Martin Aguirre</h3>
+                            <span className="contact__card-data">+54 9 387 408 2747</span>
 
-                            <a href="https://www.instagram.com/gonza_villalba02/" target="_blank" className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://wa.me/5493874082747?text=Hola,%20quiero%20hablar%20sobre%20un%20proyecto!" target="_blank" className="contact__button">Contáctanos <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Escríbeme tu proyecto</h3>
+                    <h3 className="contact__title">Cuentanos tu proyecto</h3>
 
                     <form action="" className="contact__form" ref={form} onSubmit={sendEmail}>
                         <div className="contact__form-div">

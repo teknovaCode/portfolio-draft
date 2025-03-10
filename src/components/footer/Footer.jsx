@@ -5,10 +5,10 @@ const Footer = () => {
     return(
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Gonzalo</h1>
+                <h1 className="footer__title">Teknova</h1>
                 <ul className="footer__list">
                     <li>
-                        <a href="#about" className="footer__link">Sobre mí</a>
+                        <a href="#home" className="footer__link">Nosotros</a>
                     </li>
 
                     <li>
@@ -20,7 +20,7 @@ const Footer = () => {
                     </li>
                 </ul>
 
-                <div className="footer__social">
+                {/* <div className="footer__social">
                     <a href="https://www.linkedin.com/in/gonzalo-emiliano-villalba/" className="home__social-icon" target="_blank">
                         <i class="uil uil-linkedin"></i>
                     </a>
@@ -33,10 +33,10 @@ const Footer = () => {
                     <a href="https://github.com/gonzavillalba02" className="home__social-icon" target="_blank">
                         <i class='bx bxl-github' ></i>
                     </a>
-                </div>
+                </div> */}
 
                 <span className="footer__copy">
-                    &#169; Gonzalo Villalba. All rigths reserved
+                    &#169; Teknova. All rigths reserved
                 </span>
             </div>
         </footer>

@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Gonzalo</a>
+                <a href="index.html" className="nav__logo">Teknova</a>
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
@@ -25,17 +25,11 @@ const Header = () => {
                             </a>
                         </li>
                     
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="#about" className={activeNav === "#about" ? "nav__link active-link" : "nav__link"} onClick={() => setActiveNav('#about')}>
-                                <i className="uil uil-user nav__icon"></i> Sobre mí
+                                <i className="uil uil-user nav__icon"></i> Nosotros
                             </a>
-                        </li>
-                    
-                        <li className="nav__item">
-                            <a href="#skills" className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"} onClick={() => setActiveNav('#skills')}>
-                                <i className="uil uil-file-alt nav__icon"></i> Habilidades
-                            </a>
-                        </li>
+                        </li> */}
                     
                         <li className="nav__item">
                             <a href="#services" className={activeNav === "#services" ? "nav__link active-link" : "nav__link"} onClick={() => setActiveNav('#services')}>
@@ -45,7 +39,7 @@ const Header = () => {
                     
                         <li className="nav__item">
                             <a href="#portfolio" className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"} onClick={() => setActiveNav('#portfolio')}>
-                                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                                <i className="uil uil-scenery nav__icon"></i> Proyectos
                             </a>
                         </li>
 
