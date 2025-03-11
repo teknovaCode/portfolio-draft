@@ -9,7 +9,8 @@ export const projectsData = [
         category: "web",
         link: "https://tressquash.com/",
         description: "Sistema de reservas club de squash",
-        tags: ["bxl-css3", "bxl-javascript", "bxl-react", "bxl-typescript", "bxl-nodejs", "mysql"],
+        tags: [],
+        // "bxl-css3", "bxl-javascript", "bxl-react", "bxl-typescript", "bxl-nodejs", "mysql"
     },
     {
         id: 10,
@@ -18,6 +19,7 @@ export const projectsData = [
         category: "web",
         link: "https://glk.com.ar/",
         description: "Página web corporativa para minera en Salta",
-        tags: ["bxl-css3", "bxl-javascript", "bxl-react", "bxl-typescript", "bxl-nodejs"],
+        tags: [],
+        // "bxl-css3", "bxl-javascript", "bxl-react", "bxl-typescript", "bxl-nodejs"
     },
 ];
