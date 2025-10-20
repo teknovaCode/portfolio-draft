@@ -21,9 +21,11 @@ const WorksItems = ({item}) => {
                     }
                 })}
             </div>
-            <a href={item.link} className="work__button" target="_blank">
-                Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
-            </a>
+            {item.link && (
+                <a href={item.link} className="work__button" target="_blank">
+                    Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+                </a>
+            )}
         </div>
     )
 }
