@@ -7,6 +7,15 @@ import Work14 from "../../assets/work14.png";
 
 export const projectsData = [
     {
+        id: 14,
+        image: Work14,
+        title: "Alto Noa Shopping",
+        category: "web",
+        link: "https://altonoa.com.ar/",
+        description: "Landing Page Alto Noa Shopping IRSA",
+        tags: [],
+    },
+    {
         id: 1,
         image: Work1,
         title: "Tres Squash - Club de Squash",
@@ -56,14 +65,4 @@ export const projectsData = [
         tags: [],
         // "bxl-css3", "bxl-javascript", "bxl-react", "bxl-typescript", "bxl-nodejs"
     },
-    {
-        id: 14,
-        image: Work14,
-        title: "Alto Noa Shopping",
-        category: "web",
-        link: "",
-        description: "Landing Page en Desarrollo",
-        tags: [],
-    }
-    
 ];
